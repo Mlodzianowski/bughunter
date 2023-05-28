@@ -94,6 +94,7 @@
 - [cero](https://github.com/glebarez/cero) - Scrape domain names from SSL certificates of arbitrary hosts
 - [dnspython](https://github.com/rthalley/dnspython) - Supports almost all record types. It can be used for queries, zone transfers, and dynamic updates
 
+---
 ### Port Scanning
 
 - [nmap](https://github.com/nmap/nmap) - Nmap - the Network Mapper. Github mirror of official SVN repository.
@@ -103,6 +104,7 @@
 - [RustScan](https://github.com/RustScan/RustScan) - The Modern Port Scanner
 - [naabu](https://github.com/projectdiscovery/naabu) - A fast port scanner written in go with focus on reliability and simplicity.
 
+---
 ### Screenshots
 
 - [EyeWitness](https://github.com/FortyNorthSecurity/EyeWitness) - EyeWitness is designed to take screenshots of websites, provide some server header info, and identify default credentials if possible.
@@ -115,6 +117,7 @@
 - [Depix](https://github.com/beurtschipper/Depix) - Recovers passwords from pixelized screenshots
 - [httpscreenshot](https://github.com/breenmachine/httpscreenshot/) - HTTPScreenshot is a tool for grabbing screenshots and HTML of large numbers of websites.
 
+---
 ### Technologies
 
 - [wappalyzer](https://github.com/AliasIO/wappalyzer) - Identify technology on websites.
@@ -125,6 +128,7 @@
 - [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allows to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
 - [fingerprintx](https://github.com/praetorian-inc/fingerprintx) - fingerprintx is a standalone utility for service discovery on open ports that works well with other popular bug bounty command line tools.
 
+---
 ### Content Discovery
 
 - [gobuster](https://github.com/OJ/gobuster) - Directory/File, DNS and VHost busting tool written in Go
