@@ -24,7 +24,6 @@
     - [HTTP](#httpenum)
     - [LDAP](#ldapenum)
     - [Favicon](#faviconenum)
-    - 
 
 - [Exploitation](#Exploitation)
     - [Command Injection](#Command-Injection)
@@ -179,7 +178,7 @@
 ## Exploitation
 
 ### dnsenumeration
-- [Hurricane Electric](https://bgp.he.net/) - Hurrican Electric ASN Autonomous System Number Search Tool
+- [Sublist3r](https://github.com/aboul3la/Sublist3r) - Fast subdomains enumeration tool for penetration testers
 - [DNSDumpster](https://dnsdumpster.com/) - Discover Hosts Related to specific domains.
 - [DNS Enum](https://github.com/fwaeytens/dnsenum) - multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks | 8 yrs
 - [GreyCampus](https://www.greycampus.com/opencampus/ethical-hacking/dns-enumeration/) 
@@ -501,4 +500,5 @@
 - [awesome-vulnerable-apps](https://github.com/vavkamil/awesome-vulnerable-apps) - Awesome Vulnerable Applications
 - [XFFenum](https://github.com/vavkamil/XFFenum) - X-Forwarded-For [403 forbidden] enumeration
 - [httpx](https://github.com/projectdiscovery/httpx) - httpx is a fast and multi-purpose HTTP toolkit allow to run multiple probers using retryablehttp library, it is designed to maintain the result reliability with increased threads.
-- [csprecon](https://github.com/edoardottt/csprecon) - Discover new target domains using Content Security Policy 
+- [csprecon](https://github.com/edoardottt/csprecon) - Discover new target domains using Content Security Policy
+- - [Hurricane Electric](https://bgp.he.net/) - Hurrican Electric ASN Autonomous System Number Search Tool
