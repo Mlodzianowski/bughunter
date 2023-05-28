@@ -14,6 +14,18 @@
     - [Links](#Links)
     - [Parameters](#Parameters)
 
+- [Enumeration](#enumx)
+    - [DNS Enum](#dnsenumeration)
+    - [IP/ASN Space](#ipspacenum)
+    - [SMTP](#smtpenum)
+    - [LDAP](#ldapemum)
+    - [IPSec](#ipsecenum)
+    - [SNMP](#snmpenum)
+    - [HTTP](#httpenum)
+    - [LDAP](#ldapenum)
+    - [Favicon](#faviconenum)
+    - 
+
 - [Exploitation](#Exploitation)
     - [Command Injection](#Command-Injection)
     - [SQL Injection](#SQL-Injection)
@@ -33,7 +45,7 @@
     - [Request Smuggling](#Request-Smuggling)
     - [Server Side Request Forgery](#Server-Side-Request-Forgery)
 
-- [Miscellaneous](#Other Items)
+- [Miscellaneous](#Miscellaneous)
     - [Passwords](#Passwords)
     - [Secrets](#Secrets)
     - [Git](#Git)
@@ -166,6 +178,11 @@
 
 ## Exploitation
 
+### dnsenumeration
+- [Hurricane Electric](https://bgp.he.net/) - Hurrican Electric ASN Autonomous System Number Search Tool
+- [DNSDumpster](https://dnsdumpster.com/) - Discover Hosts Related to specific domains.
+- [DNS Enum](https://github.com/fwaeytens/dnsenum) - multithreaded perl script to enumerate DNS information of a domain and to discover non-contiguous ip blocks | 8 yrs
+- [GreyCampus](https://www.greycampus.com/opencampus/ethical-hacking/dns-enumeration/) 
 
 ### Command Injection
 
