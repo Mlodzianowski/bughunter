@@ -139,6 +139,7 @@
 - [hakrawler](https://github.com/hakluke/hakrawler) - Simple, fast web crawler designed for easy, quick discovery of endpoints and assets within a web application
 - [crawley](https://github.com/s0rg/crawley) - fast, feature-rich unix-way web scraper/crawler written in Golang.
 
+---
 ### Links
 
 - [LinkFinder](https://github.com/GerbenJavado/LinkFinder) - A python script that finds endpoints in JavaScript files
@@ -152,6 +153,7 @@
 - [getJS](https://github.com/003random/getJS) -  A tool to fastly get all javascript sources/files
 - [linx](https://github.com/riza/linx) - Reveals invisible links within JavaScript files
 
+---
 ### Parameters
 
 - [parameth](https://github.com/maK-/parameth) - This tool can be used to brute discover GET and POST parameters
@@ -161,6 +163,7 @@
 - [ParamSpider](https://github.com/devanshbatham/ParamSpider) - Mining parameters from dark corners of Web Archives.
 - [x8](https://github.com/Sh1Yo/x8) - Hidden parameters discovery suite written in Rust.
 
+---
 ### Fuzzing
 
 - [wfuzz](https://github.com/xmendez/wfuzz) - Web application fuzzer
