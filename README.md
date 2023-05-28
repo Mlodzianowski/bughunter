@@ -7,15 +7,18 @@
 - [Reconnaissance](#Recon)
     - [Subdomain Enumeration](#Subdomain-Enumeration)
     - [Port Scanning](#Port-Scanning)
+    - [Fuzzing](#Fuzzing)
     - [Screenshots](#Screenshots)
     - [Technologies](#Technologies)
     - [Content Discovery](#Content-Discovery)
     - [Links](#Links)
     - [Parameters](#Parameters)
-    - [Fuzzing](#Fuzzing)
 
 - [Exploitation](#Exploitation)
     - [Command Injection](#Command-Injection)
+    - [SQL Injection](#SQL-Injection)
+    - [XSS Injection](#XSS-Injection)
+    - [XXE Injection](#XXE-Injection)
     - [CORS Misconfiguration](#CORS-Misconfiguration)
     - [CRLF Injection](#CRLF-Injection)
     - [CSRF Injection](#CSRF-Injection)
@@ -29,11 +32,8 @@
     - [Race Condition](#Race-Condition)
     - [Request Smuggling](#Request-Smuggling)
     - [Server Side Request Forgery](#Server-Side-Request-Forgery)
-    - [SQL Injection](#SQL-Injection)
-    - [XSS Injection](#XSS-Injection)
-    - [XXE Injection](#XXE-Injection)
 
-- [Miscellaneous](#Miscellaneous)
+- [Miscellaneous](#Other Items)
     - [Passwords](#Passwords)
     - [Secrets](#Secrets)
     - [Git](#Git)
@@ -54,6 +54,11 @@
 - [Amass](https://github.com/OWASP/Amass) - In-depth Attack Surface Mapping and Asset Discovery
 - [massdns](https://github.com/blechschmidt/massdns) - A high-performance DNS stub resolver for bulk lookups and reconnaissance (subdomain enumeration)
 - [Findomain](https://github.com/Findomain/Findomain) - The fastest and cross-platform subdomain enumerator, do not waste your time.
+- [censys-enumeration](https://github.com/0xbharath/censys-enumeration) - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
+- [tugarecon](https://github.com/LordNeoStark/tugarecon) - Fast subdomains enumeration tool for penetration testers.
+- [as3nt](https://github.com/cinerieus/as3nt) - Another Subdomain ENumeration Tool
+- [Subra](https://github.com/si9int/Subra) - A Web-UI for subdomain enumeration (subfinder)
+- [Substr3am](https://github.com/nexxai/Substr3am) - Passive reconnaissance/enumeration of interesting targets by watching for SSL certificates being issued
 - [Sudomy](https://github.com/Screetsec/Sudomy) - Sudomy is a subdomain enumeration tool to collect subdomains and analyzing domains performing automated reconnaissance (recon) for bug hunting / pentesting
 - [chaos-client](https://github.com/projectdiscovery/chaos-client) - Go client to communicate with Chaos DNS API.
 - [domained](https://github.com/TypeError/domained) - Multi Tool Subdomain Enumeration
@@ -61,11 +66,6 @@
 - [shuffledns](https://github.com/projectdiscovery/shuffledns) - shuffleDNS is a wrapper around massdns written in go that allows you to enumerate valid subdomains using active bruteforce as well as resolve subdomains with wildcard handling and easy input-output…
 - [censys-subdomain-finder](https://github.com/christophetd/censys-subdomain-finder) - Perform subdomain enumeration using the certificate transparency logs from Censys.
 - [Turbolist3r](https://github.com/fleetcaptain/Turbolist3r) - Subdomain enumeration tool with analysis features for discovered domains
-- [censys-enumeration](https://github.com/0xbharath/censys-enumeration) - A script to extract subdomains/emails for a given domain using SSL/TLS certificate dataset on Censys
-- [tugarecon](https://github.com/LordNeoStark/tugarecon) - Fast subdomains enumeration tool for penetration testers.
-- [as3nt](https://github.com/cinerieus/as3nt) - Another Subdomain ENumeration Tool
-- [Subra](https://github.com/si9int/Subra) - A Web-UI for subdomain enumeration (subfinder)
-- [Substr3am](https://github.com/nexxai/Substr3am) - Passive reconnaissance/enumeration of interesting targets by watching for SSL certificates being issued
 - [domain](https://github.com/jhaddix/domain/) - enumall.py Setup script for Regon-ng
 - [altdns](https://github.com/infosec-au/altdns) - Generates permutations, alterations and mutations of subdomains and then resolves them
 - [brutesubs](https://github.com/anshumanbh/brutesubs) - An automation framework for running multiple open sourced subdomain bruteforcing tools (in parallel) using your own wordlists via Docker Compose
@@ -84,12 +84,12 @@
 
 ### Port Scanning
 
-- [masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
-- [RustScan](https://github.com/RustScan/RustScan) - The Modern Port Scanner
-- [naabu](https://github.com/projectdiscovery/naabu) - A fast port scanner written in go with focus on reliability and simplicity.
 - [nmap](https://github.com/nmap/nmap) - Nmap - the Network Mapper. Github mirror of official SVN repository.
 - [sandmap](https://github.com/trimstray/sandmap) - Nmap on steroids. Simple CLI with the ability to run pure Nmap engine, 31 modules with 459 scan profiles.
 - [ScanCannon](https://github.com/johnnyxmas/ScanCannon) - Combines the speed of masscan with the reliability and detailed enumeration of nmap
+- [masscan](https://github.com/robertdavidgraham/masscan) - TCP port scanner, spews SYN packets asynchronously, scanning entire Internet in under 5 minutes.
+- [RustScan](https://github.com/RustScan/RustScan) - The Modern Port Scanner
+- [naabu](https://github.com/projectdiscovery/naabu) - A fast port scanner written in go with focus on reliability and simplicity.
 
 ### Screenshots
 
@@ -165,7 +165,6 @@
 
 ## Exploitation
 
-Lorem ipsum dolor sit amet
 
 ### Command Injection
 
@@ -347,7 +346,7 @@ Lorem ipsum dolor sit amet
 
 ## Miscellaneous
 
-Lorem ipsum dolor sit amet
+
 
 ### Passwords
 
@@ -471,7 +470,7 @@ Lorem ipsum dolor sit amet
 - [OWASP ZAP](https://github.com/zaproxy/zaproxy) -  World’s most popular free web security tools and is actively maintained by a dedicated international team of volunteers
 - [SSTImap](https://github.com/vladko312/SSTImap) -  SSTImap is a penetration testing software that can check websites for Code Injection and Server-Side Template Injection vulnerabilities and exploit them, giving access to the operating system itself.
 - 
-### Uncategorized
+### Other Items
 
 - [JSONBee](https://github.com/zigoo0/JSONBee) - A ready to use JSONP endpoints/payloads to help bypass content security policy (CSP) of different websites.
 - [CyberChef](https://github.com/gchq/CyberChef) - The Cyber Swiss Army Knife - a web app for encryption, encoding, compression and data analysis
