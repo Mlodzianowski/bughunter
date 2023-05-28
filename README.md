@@ -80,7 +80,8 @@
 - [VHostScan](https://github.com/codingo/VHostScan) - A virtual host scanner that performs reverse lookups
 - [scilla](https://github.com/edoardottt/scilla) - Information Gathering tool - DNS / Subdomains / Ports / Directories enumeration
 - [sub3suite](https://github.com/3nock/sub3suite) - A research-grade suite of tools for subdomain enumeration, intelligence gathering and attack surface mapping.
-- [cero](https://github.com/glebarez/cero) - Scrape domain names from SSL certificates of arbitrary hosts 
+- [cero](https://github.com/glebarez/cero) - Scrape domain names from SSL certificates of arbitrary hosts
+- [dnspython](https://github.com/rthalley/dnspython) - Supports almost all record types. It can be used for queries, zone transfers, and dynamic updates
 
 ### Port Scanning
 
