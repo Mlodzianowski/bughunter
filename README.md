@@ -316,7 +316,7 @@
 - [domxssscanner](https://github.com/yaph/domxssscanner) - DOMXSS Scanner is an online tool to scan source code for DOM based XSS vulnerabilities
 - [xsshunter_client](https://github.com/mandatoryprogrammer/xsshunter_client) - Correlated injection proxy tool for XSS Hunter
 - [extended-xss-search](https://github.com/Damian89/extended-xss-search) - A better version of my xssfinder tool - scans for different types of xss on a list of urls.
-- [xssmap](https://github.com/Jewel591/xssmap) - XSSMap 是一款基于 Python3 开发用于检测 XSS 漏洞的工具
+- [xssmap](https://github.com/Jewel591/xssmap) - XSSMap Detect XSS Vulnerbility in Web Applications - Python -3yrs last update
 - [XSSCon](https://github.com/menkrep1337/XSSCon) - XSSCon: Simple XSS Scanner tool
 - [BitBlinder](https://github.com/BitTheByte/BitBlinder) - BurpSuite extension to inject custom cross-site scripting payloads on every form/request submitted to detect blind XSS vulnerabilities
 - [XSSOauthPersistence](https://github.com/dxa4481/XSSOauthPersistence) - Maintaining account persistence via XSS and Oauth
